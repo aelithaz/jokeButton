@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    padding: 0.5em;
+}
+
+ul {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 25px;
+    color: rgb(255, 0, 0);
+    background: rgb(214, 214, 214);
+    background-size: contain;
+    position: relative;
+}
+
+li {
+    width: 400px;
+}
+
+p {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(255, 91, 36);
+}
+
+.icon {
+    width: 15%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pressed {
+    display: none;
+}
+
+.unpressed {
+    display: none;
+}
+
+.active {
+    display: block;
+}
